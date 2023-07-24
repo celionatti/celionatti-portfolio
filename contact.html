@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Amisu Usman Portfolio - Resume</title>
+  <title>Amisu Usman Portfolio - Contact</title>
   <meta content="" name="description">
   <meta content="amisu, usman, celio, natti, portfolio, resume" name="keywords">
 
@@ -50,9 +50,9 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a class="active" href="resume.html">Resume</a></li>
+          <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -70,63 +70,78 @@
 
   <main id="main">
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Resume</h2>
-          <p>Highly organized, dedicated business graduate looking forward to entering the workforce after graduating with a Bachelor’s in business administration, with proven leadership, organizational and product-development skills. Prepared to assist organizations in a variety of industries plan, organize and control departmental policies and procedures.</p>
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Amisu Usman</h4>
-              <p><em>Innovative and deadline-driven Web Developer with 4+ years of experience designing and developing user-centered fullstack website from initial concept to final, polished deliverable.</em></p>
-              <p>
-              <ul>
-                <li>11, Survey RD, Mapelwood Estate,Agege</li>
-                <li>(234) 706-9157-723, 08057417398</li>
-                <li>amisuusman@gmail.com</li>
-                <li>celionatti@nattination.com.ng</li>
-              </ul>
-              </p>
-            </div>
+        <div>
+          <iframe width="100%" height="270" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=378%20Lagos%20Abeokuta,%20Expressway%20Abule%20egba,%20Lagos+(Femlovaz)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population mapping</a></iframe>
+        </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Bachelor of Science &amp; Business Adminstration</h4>
-              <h5>2016 - 2020</h5>
-              <p><em>Bowen University, Iwo, NIGERIA</em></p>
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>378 Lagos Abeokuta, Expressway Abule Egba, Lagos</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>amisuusman@gmail.com</p>
+                <p>celionatti@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+234 706-9157-723</p>
+                <p>+234 913-042-7689</p>
+              </div>
+
             </div>
 
           </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>NYSC Education - Teacher</h4>
-              <h5>2021 - 2022</h5>
-              <p><em>Arandun Grammar School, Arandun, Kwara NIGERIA </em></p>
-            </div>
 
-            <div class="resume-item">
-              <h4>Multichoice - Dstv / Gotv Dealer</h4>
-              <h5>2023 - Present</h5>
-              <p><em>Femlovaz Global concepts limited, Abule Egba, NIGERIA </em></p>
-              <p>
-              <ul>
-                <li>Delegate tasks to other members of the team and provide counsel on all aspects of the task. </li>
-                <li>Oversee all transactions, budgets and stocks requiestions.</li>
-              </ul>
-              </p>
-            </div>
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
           </div>
+
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
+    </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
